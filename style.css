@@ -176,3 +176,10 @@ textarea {
     min-height: 200px;
     resize: none;
 }
+
+input[type='checkbox'] {
+    width: 8px;
+    height: 8px;
+
+    background-color: var(--bgc-default);
+}
