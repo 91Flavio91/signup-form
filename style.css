@@ -147,6 +147,22 @@ input[type='radio']:checked::after {
     height: 10px;
 }
 
+.select-wrapper {
+    position: relative;
+}
+
+.select-wrapper::after {
+    position: absolute;
+    right: 0;
+
+    padding: 10px;
+
+    content: '\25be';
+    pointer-events: none;
+
+    color: var(--color-shadow);
+}
+
 fieldset:nth-of-type(4) {
     gap: 20px;
 }
