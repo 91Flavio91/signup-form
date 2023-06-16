@@ -69,7 +69,8 @@ form {
 
 fieldset, 
 label,
-input {
+input,
+select {
     border: none;
 
     font-family: inherit;
@@ -101,7 +102,8 @@ fieldset div {
     gap: 20px;
 }
 
-input {
+input,
+select {
     width: 300px;
 
     border-radius: 5px;
