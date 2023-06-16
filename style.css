@@ -146,3 +146,17 @@ input[type='radio']:checked::after {
     width: 10px;
     height: 10px;
 }
+
+fieldset:nth-of-type(4) {
+    gap: 20px;
+}
+
+.instructions {
+    width: 300px;
+    align-self: flex-end;
+}
+
+textarea {
+    min-height: 200px;
+    resize: none;
+}
