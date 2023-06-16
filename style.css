@@ -43,7 +43,8 @@ body {
     background-color: var(--bgc-body);
 }
 
-.form-title {
+.form-title,
+.form {
     width: 85%;
 
     display: flex;
