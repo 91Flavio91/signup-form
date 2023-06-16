@@ -61,6 +61,12 @@ body {
     background-color: var(--bgc-div);
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
 fieldset, 
 label,
 input {
