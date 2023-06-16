@@ -7,6 +7,7 @@
     --bgc-default: #ffffff;
     --bgc-body: #e0e0e0;
     --bgc-div: #f1f1f1;
+    --bgc-checked-input: #6e6eff;
 
     --color-heading: #595959;
     --color-paragraph: #626262;
@@ -108,4 +109,22 @@ input[type='radio'] {
 
     box-shadow: inset var(--color-shadow) 0px 0px 3px 0px;
     background-color: var(--bgc-default);
+}
+
+input[type='radio']::after {
+    content: '';
+
+    width: 0px;
+    height: 0px;
+
+    border-radius: 50%;
+
+    background-color: var(--bgc-checked-input);
+
+    transition: all 0.3s;
+}
+
+input[type='radio']:checked::after {
+    width: 10px;
+    height: 10px;
 }
