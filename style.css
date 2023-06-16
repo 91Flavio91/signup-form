@@ -64,6 +64,32 @@ label,
 input {
     border: none;
 
+    font-family: inherit;
+
+    color: var(--color-paragraph);
+
     appearance: none;
     outline: none;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+fieldset div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+input {
+    width: 300px;
+
+    border-radius: 5px;
+    padding: 8px;
+
+    box-shadow: var(--color-shadow) 0px 0px 3px 0px;
 }
