@@ -70,7 +70,8 @@ form {
 fieldset, 
 label,
 input,
-select {
+select,
+textarea {
     border: none;
 
     font-family: inherit;
@@ -103,7 +104,8 @@ fieldset div {
 }
 
 input,
-select {
+select,
+textarea {
     width: 300px;
 
     border-radius: 5px;
