@@ -74,10 +74,18 @@ input {
     outline: none;
 }
 
+legend {
+    display: contents;
+}
+
 fieldset {
     display: flex;
     flex-direction: column;
     gap: 40px;
+}
+
+fieldset:nth-of-type(2) {
+    flex-direction: row;
 }
 
 fieldset div {
