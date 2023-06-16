@@ -181,5 +181,18 @@ input[type='checkbox'] {
     width: 8px;
     height: 8px;
 
+    position: relative;
+
     background-color: var(--bgc-default);
+}
+
+input[type='checkbox']:checked::after {
+    position: absolute;
+    top: -50%;
+    left: 0;
+    content: '\2714';
+
+    color: var(--bgc-checked-input);
+
+    font-size: 1.5rem;
 }
