@@ -177,6 +177,11 @@ textarea {
     resize: none;
 }
 
+fieldset:nth-of-type(5) {
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
 input[type='checkbox'] {
     width: 8px;
     height: 8px;
