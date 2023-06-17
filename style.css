@@ -14,6 +14,7 @@
     --color-heading: #595959;
     --color-paragraph: #626262;
     --color-button-border: #6e6eff;
+    --color-button-hover: #6e6eff;
 
     --color-shadow: #9e9e9e;
 }
@@ -221,4 +222,11 @@ button {
 
     color: var(--color-default);
     background-color: var(--bgc-button);
+
+    transition: all 0.3s;
+}
+
+button:hover {
+    color: var(--color-button-hover);
+    background-color: var(--bgc-default);
 }
