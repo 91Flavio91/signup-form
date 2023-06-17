@@ -8,9 +8,12 @@
     --bgc-body: #e0e0e0;
     --bgc-div: #f1f1f1;
     --bgc-checked-input: #6e6eff;
+    --bgc-button: #6e6eff;
 
+    --color-default: #ffffff;
     --color-heading: #595959;
     --color-paragraph: #626262;
+    --color-button-border: #6e6eff;
 
     --color-shadow: #9e9e9e;
 }
@@ -71,7 +74,8 @@ fieldset,
 label,
 input,
 select,
-textarea {
+textarea,
+button {
     border: none;
 
     font-family: inherit;
@@ -200,4 +204,21 @@ input[type='checkbox']:checked::after {
     color: var(--bgc-checked-input);
 
     font-size: 1.5rem;
+}
+
+.button {
+    align-self: flex-end;
+
+    width: 300px;
+}
+
+button {
+    border-radius: 10px;
+    border: 2px solid var(--color-button-border);
+    padding: 8px 48px;
+
+    font-size: 1rem;
+
+    color: var(--color-default);
+    background-color: var(--bgc-button);
 }
